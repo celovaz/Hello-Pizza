@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+
+
+body {
+	background: url("../img/background-pizza.png") no-repeat;
+	background-color: rgb(19,19,19);
+	background-size: 100%;
+    position: relative;
+}
+
+header#img-cabecalho {
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background-color: rgba(0,0,0,.6);
+	padding: 30px;
+	padding-right: 935px;
+
+}
+
+nav#menu {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 780px;
+
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+
+}
+
+nav#menu li {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+	padding: 50px;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+	color: white;
+
+}
+
+hgroup#lista-vantagens ul{
+	font-family: 'Caveat', cursive;
+	color: white;
+	font-size: 25pt;
+	position: relative;
+	top: 250px;
+	list-style: none;
+	 
+
+}
+
+
+hgroup#lista-vantagens li::before {
+	content: "o ";
+	font-family: Arial;
+	font-size: 15pt;
+  	color: yellow;
+}
+
+.botao_sabores {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	background-color: rgba(0,0,0,.6);
+	border-radius: 10px;
+	top: 600px ;
+	left: 630px;
+	width: 130px;
+	
+}
+
+figure#img-pizzas {
+
+	margin-top: 630px;
+	margin-left: 320px;
+}
+
+table#tabela-sabores {
+	position: relative;
+	left: 150px;
+	border-spacing: 0px;
+
+}
+
+table#tabela-sabores td {
+	border: 1px solid #000000;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(54,54,54,0.8);
+	color: rgb(214,214,214);
+	font-weight: bolder;
+}
+
+table#tabela-sabores td.sim {
+	color: rgb(193,193,0);
+	width: 200px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+table#tabela-sabores td.não{
+	color: rgb(255,130,192);
+	width: 200px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+
+}
+
+table#tabela-sabores td.cabecalho{
+	color: rgb(143,143,143);
+	width: 200px;
+	font-weight: bolder;
+
+}
+
+.botao_contato {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	background-color: rgba(0,0,0,.6);
+	border-radius: 10px;
+	width: 125px;
+	padding: 10px;
+	top: 60px;
+	left: 630px;
+
+}
+
+
+input#botao-enviar {
+	
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15pt;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	background-color: rgb(19,19,19);
+	border: 2px rgb(54,54,54) solid;
+	border-radius: 10px;
+	width: 595px;
+	padding: 5px;
+	top: 90px;
+	
+
+}
+
+
+figure#imagem-footer {
+	position: relative;
+	background-color: rgba(54,54,54,0.8);
+	top: 100px;
+	padding-left: 500px;
+	border-radius: 20px;
+	
+	
+	
+	
+	
+}

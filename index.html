@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Pizza</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="form/form.css">
+</head>
+
+<body>
+	<header id="img-cabecalho">
+		<figure>
+			<img src="img/logo-helloPizza.png">	
+		</figure>
+
+	</header>
+
+<div>
+	<nav id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="sabores.html">Sabores</a></li>
+		<li><a href="contato.html">Contato</a></li>
+	</ul>
+	</nav>
+
+	<hgroup id="lista-vantagens">
+	<ul>
+		<li>Qualidade</li>
+		<li>Sabor</li>
+		<li>Praticidade</li>
+		<li>Agilidade</li>
+	</ul>
+	</hgroup>
+</div>
+
+
+<h1 class="botao_sabores">sabores</h1>
+
+
+<figure id="img-pizzas">
+<img src="img/sabores-pizzas - Cópia.png">
+</figure>
+
+</div>	
+
+<div id="tabela-sabores">
+<table id="tabela-sabores">
+<tr><td class="cabecalho">pizzas</td><td class="cabecalho">queijo/molho</td><td class="cabecalho">salada</td><td class="cabecalho">carne</td><td class="cabecalho">azeitona/champignon</td></tr>
+<tr><td>mozzarela</td><td rowspan="6" class="sim">sim</td><td class="não">não</td><td class="não">não</td><td class="não">não</td></tr>
+<tr><td>calabresa</td><td class="não">não</td><td class="sim">sim</td><td class="sim">sim</td></tr>
+<tr><td>pepperoni</td><td class="não">não</td><td class="sim">sim</td><td class="sim">sim</td></tr>
+<tr><td>marguerita</td><td class="sim">sim</td><td class="sim">sim</td><td class="sim">sim</td></tr>
+<tr><td>portuguesa</td><td class="sim">sim</td><td class="sim">sim</td><td class="sim">sim</td></tr>
+<tr><td>alho</td><td class="não">não</td><td class="não">não</td><td class="não">não</td></tr>
+</table>
+</div>
+
+<h1 class="botao_contato">contato</h1>
+
+<form id="contato" method="get" action="dados.php">
+		<p>Nome<br/><input type="text" name="nome" maxlength="30" placeholder=" Nome Completo"></p>
+		<p>Email<br/><input type="e-mail" name="e-mail" maxlength="30" placeholder=" Digite seu e-mail"></p>
+		<p>Mensagem<br/><textarea type="text" name="mensagem" maxlength="300" placeholder=" Digite aqui sua mensagem."></textarea></p>
+		<p> <input name="botao-enviar" type="submit" >  </p>
+
+</form>	
+</div>
+
+<footer>
+	<figure id="imagem-footer">
+		<img src="img/logo-helloPizza.png">	
+	</figure>
+</footer>
+</body>
+</html>
